@@ -1,0 +1,30 @@
+
+.awesome {
+  height: 595px;
+}
+
+/* Title */
+.awesome__title {
+  font-family: Raleway, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+  text-align: center;
+}
+
+/* subTitle */
+.awesome__subTitle {
+
+  height: 19px;
+
+
+  font-family: "OpenSans", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878B;
+  text-align: center;
+}

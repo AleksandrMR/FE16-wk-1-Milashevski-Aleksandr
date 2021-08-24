@@ -10,11 +10,36 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import url(header.css);
+@import url(intro.css);
+@import url(awesome.css);
+
+/* Fonts */
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"),
+  url(/fonts/Raleway/Raleway.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"),
+  url(/fonts/OpenSans/OpenSans.ttf);
+}
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 14px;
   line-height: 1.4;
+  font-family: "OpenSans", serif;
+
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
 }
 
 /*
@@ -180,9 +205,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -198,6 +223,7 @@ textarea {
   *::after {
     background: #fff !important;
     color: #000 !important;
+    box-sizing: border-box;
     /* Black prints faster */
     box-shadow: none !important;
     text-shadow: none !important;
@@ -258,6 +284,18 @@ textarea {
   h2,
   h3 {
     page-break-after: avoid;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
   }
 }
 
