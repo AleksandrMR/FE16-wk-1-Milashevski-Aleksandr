@@ -12,19 +12,153 @@
   line-height: 42px;
   color: #212121;
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+
+.awesome__line {
+  width: 64px;
+  height: 2px;
+  background-color: #D98943;
+  margin: auto;
 }
 
 /* subTitle */
 .awesome__subTitle {
-
   height: 19px;
-
-
-  font-family: "OpenSans", serif;
+  font-family: "OpenSans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
   color: #86878B;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 67px;
+}
+
+.flex_container {
+  height: 314px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* firstBlock */
+.flex__item1 {
+  width: 350px;
+  height: 314px;
+  text-align: center;
+}
+
+.flex__item1_image {
+  width: 70px;
+  height: 70px;
+  border: 1px solid;
+  border-color: #D98943;
+  border-radius: 50%;
+  background: url("../img/image1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.flex__item1_title {
+  position: center;
+  font-family: "OpenSans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.flex__item1_subTitle {
+  position: center;
+  font-family: "OpenSans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+/* secondBlock */
+.flex__item2 {
+  width: 350px;
+  height: 314px;
+  text-align: center;
+}
+
+.flex__item2_image {
+  width: 70px;
+  height: 70px;
+  border: 1px solid;
+  border-color: #D98943;
+  border-radius: 50%;
+  background: url("../img/image2.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.flex__item2_title {
+  position: center;
+  font-family: "OpenSans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.flex__item2_subTitle {
+  position: center;
+  font-family: "OpenSans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+/* thirdsBlock */
+.flex__item3 {
+  width: 350px;
+  height: 314px;
+  text-align: center;
+}
+
+.flex__item3_image {
+  width: 70px;
+  height: 70px;
+  border: 1px solid;
+  border-color: #D98943;
+  border-radius: 50%;
+  background: url("../img/image3.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.flex__item3_title {
+  position: center;
+  font-family: "OpenSans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.flex__item3_subTitle {
+  position: center;
+  font-family: "OpenSans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
 }
