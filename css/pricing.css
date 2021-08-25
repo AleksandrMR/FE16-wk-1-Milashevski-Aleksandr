@@ -173,6 +173,9 @@
 }
 
 .list_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 340px;
   height: 40px;
   margin: 4px 0 4px 0;
@@ -187,5 +190,7 @@
 
 .pricing__text {
   height: 100%;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
