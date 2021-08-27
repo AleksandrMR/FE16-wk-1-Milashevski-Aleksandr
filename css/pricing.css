@@ -1,24 +1,25 @@
 
 .pricing {
-  height: 822px;
   background-color: #F5F5F5;
 }
 
 /* Title */
-.pricing__title {
+.pricing__titleBox_title {
+  line-height: 42px;
+  padding-top: 80px;
+  padding-bottom: 34px;
   font-family: Raleway, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
-  line-height: 42px;
   text-align: center;
   text-transform: uppercase;
   color: #212121;
-  padding-top: 80px;
-  padding-bottom: 34px;
 }
 
-.pricing__line {
+.titleBox:after {
+  content: "";
+  display: block;
   width: 64px;
   height: 2px;
   background-color: #D98943;
@@ -27,20 +28,18 @@
 
 /* subTitle */
 .pricing__subTitle {
-  height: 19px;
+  line-height: 19px;
+  padding-top: 34px;
+  padding-bottom: 63px;
   font-family: "OpenSans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 19px;
   color: #86878B;
   text-align: center;
-  padding-top: 34px;
-  padding-bottom: 63px;
 }
 
 .pricing__flexBox {
-  height: 467px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -51,36 +50,39 @@
 
 /* firstBlock */
 .pricing__flexBox_item1 {
-  width: 340px;
-  height: 467px;
   text-align: center;
+  padding-bottom: 82px;
 }
 
 .pricing__flexBox_item1_title {
-  height: 50px;
+  line-height: 27px;
+  padding-top: 15px;
+  padding-bottom: 8px;
   background-color: #333333;
   font-family: "OpenSans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 27px;
   color: white;
 }
 
 .pricing__flexBox_item1_price {
-  height: 100px;
-  background-color: #333333;
+  line-height: 41px;
+  padding-top: 26px;
+  padding-bottom: 33px;
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
-  line-height: 41px;
   color: white;
+  background-color: #333333;
   margin: 2px 0 2px 0;
 }
 
 .pricing__flexBox_item1_offer {
-  height: 50px;
+  line-height: 19px;
+  padding-top: 17px;
+  padding-bottom: 14px;
   background-color: #333333;
   color: rgba(255, 255, 255, 0.5);
   transition: background-color 0.3s linear;
@@ -92,36 +94,39 @@
 
 /* secondBlock */
 .pricing__flexBox_item2 {
-  width: 340px;
-  height: 467px;
   text-align: center;
+  padding-bottom: 82px;
 }
 
 .pricing__flexBox_item2_title {
-  height: 50px;
+  line-height: 27px;
+  padding-top: 15px;
+  padding-bottom: 8px;
   background-color: #333333;
   font-family: "OpenSans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 27px;
   color: white;
 }
 
 .pricing__flexBox_item2_price {
-  height: 100px;
-  background-color: #333333;
+  line-height: 41px;
+  padding-top: 26px;
+  padding-bottom: 33px;
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
-  line-height: 41px;
   color: white;
   margin: 2px 0 2px 0;
+  background-color: #333333;
 }
 
 .pricing__flexBox_item2_offer {
-  height: 50px;
+  line-height: 19px;
+  padding-top: 17px;
+  padding-bottom: 14px;
   background-color: #333333;
   color: rgba(255, 255, 255, 0.5);
   transition: background-color 0.3s linear;
@@ -133,36 +138,39 @@
 
 /* thirdsBlock */
 .pricing__flexBox_item3 {
-  width: 340px;
-  height: 467px;
   text-align: center;
+  padding-bottom: 82px;
 }
 
 .pricing__flexBox_item3_title {
-  height: 50px;
+  line-height: 27px;
+  padding-top: 15px;
+  padding-bottom: 8px;
   background-color: #333333;
   font-family: "OpenSans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 27px;
   color: white;
 }
 
 .pricing__flexBox_item3_price {
-  height: 100px;
+  line-height: 41px;
+  padding-top: 26px;
+  padding-bottom: 33px;
   background-color: #333333;
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
-  line-height: 41px;
   color: white;
   margin: 2px 0 2px 0;
 }
 
 .pricing__flexBox_item3_offer {
-  height: 50px;
+  line-height: 19px;
+  padding-top: 17px;
+  padding-bottom: 14px;
   background-color: #333333;
   color: rgba(255, 255, 255, 0.5);
   transition: background-color 0.3s linear;
@@ -173,17 +181,18 @@
 }
 
 .list_item {
+  line-height: 19px;
+  padding-top: 10px;
+  padding-bottom: 11px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 340px;
-  height: 40px;
   margin: 4px 0 4px 0;
   font-family: "OpenSans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 19px;
   color: #86878B;
   background-color: white;
 }

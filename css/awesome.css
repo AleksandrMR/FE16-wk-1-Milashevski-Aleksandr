@@ -16,13 +16,6 @@
   padding-bottom: 25px;
 }
 
-.awesome__line {
-  width: 64px;
-  height: 2px;
-  background-color: #D98943;
-  margin: auto;
-}
-
 /* subTitle */
 .awesome__subTitle {
   height: 19px;
