@@ -31,4 +31,9 @@
   color: white;
   padding: 11px 26px;
   border: 1px solid white;
+  transition: background-color 0.3s linear;
+}
+
+.axure__button > a:hover {
+  background-color: #D98943;
 }
