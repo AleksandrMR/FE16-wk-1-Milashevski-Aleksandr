@@ -1,0 +1,34 @@
+
+.axure {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.55)),
+  url("../img/axureBackground.svg") center no-repeat;
+  background-size: cover;
+}
+
+#axure_h2{
+  color: white;
+}
+
+#axure_line:after {
+  background-color: white;
+}
+
+#axure_h4 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.axure__button {
+  padding-bottom: 49px;
+  display: block;
+  text-align: center;
+}
+
+.axure__button > a {
+  color: white;
+  padding: 11px 26px;
+  border: 1px solid white;
+}

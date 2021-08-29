@@ -3,51 +3,6 @@
   background-color: #F5F5F5;
 }
 
-/* Title */
-.pricing__titleBox_title {
-  line-height: 42px;
-  padding-top: 80px;
-  padding-bottom: 34px;
-  font-family: Raleway, serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #212121;
-}
-
-.titleBox:after {
-  content: "";
-  display: block;
-  width: 64px;
-  height: 2px;
-  background-color: #D98943;
-  margin: auto;
-}
-
-/* subTitle */
-.pricing__subTitle {
-  line-height: 19px;
-  padding-top: 34px;
-  padding-bottom: 63px;
-  font-family: "OpenSans", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  color: #86878B;
-  text-align: center;
-}
-
-.pricing__flexBox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  vertical-align: middle;
-}
-
 /* firstBlock */
 .pricing__flexBox_item1 {
   text-align: center;

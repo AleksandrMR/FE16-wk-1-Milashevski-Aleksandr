@@ -3,41 +3,6 @@
   background-color: white;
 }
 
-/* Title */
-.awesome__title {
-  font-family: Raleway, serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 42px;
-  color: #212121;
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 25px;
-}
-
-/* subTitle */
-.awesome__subTitle {
-  height: 19px;
-  font-family: "OpenSans", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
-  color: #86878B;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 67px;
-}
-
-.awesome__flexBox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
 /* firstBlock */
 .awesome__flexBox_item1 {
   width: 350px;
@@ -48,14 +13,10 @@
 .awesome__flexBox_item1_image {
   width: 70px;
   height: 70px;
-  border: 1px solid;
-  border-color: #D98943;
+  border: 1px solid #D98943;
   border-radius: 50%;
-  background: url("../img/image1.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: auto;
-  margin-bottom: 30px;
+  background: url("../img/image1.svg") no-repeat center;
+  margin: auto auto 30px;
 }
 
 .awesome__flexBox_item1_title {
@@ -87,14 +48,10 @@
 .awesome__flexBox_item2_image {
   width: 70px;
   height: 70px;
-  border: 1px solid;
-  border-color: #D98943;
+  border: 1px solid #D98943;
   border-radius: 50%;
-  background: url("../img/image2.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: auto;
-  margin-bottom: 30px;
+  background: url("../img/image2.svg") no-repeat center;
+  margin: auto auto 30px;
 }
 
 .awesome__flexBox_item2_title {
@@ -126,14 +83,10 @@
 .awesome__flexBox_item3_image {
   width: 70px;
   height: 70px;
-  border: 1px solid;
-  border-color: #D98943;
+  border: 1px solid #D98943;
   border-radius: 50%;
-  background: url("../img/image3.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: auto;
-  margin-bottom: 30px;
+  background: url("../img/image3.svg") no-repeat center;
+  margin: auto auto 30px;
 }
 
 .awesome__flexBox_item3_title {

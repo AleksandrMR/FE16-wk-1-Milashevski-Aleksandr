@@ -1,0 +1,60 @@
+
+.customers {
+  background-color: white;
+}
+
+.customers__comment {
+  width: 298px;
+  text-align: center;
+  border-radius: 7px;
+  color: #86878B;
+  background-color: #E2E2E2;
+}
+
+.customers__comment_text {
+  padding: 9px 23px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 17px solid transparent;
+  border-right: 17px solid transparent;
+  border-top: 17px solid #E2E2E2;
+  margin-left: 39px;
+}
+
+.subFlexBox{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 39px 119px;
+}
+
+.customers__flexBox_image {
+  width: 70px;
+  height: 70px;
+  border-color: #D98943;
+  border-radius: 50%;
+  background: url("../img/avatar.svg") no-repeat center;
+}
+
+.name {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #333333;
+  padding-left: 45px;
+}
+
+.position {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878B;
+  text-align: right;
+  margin-top: 12px;
+}
