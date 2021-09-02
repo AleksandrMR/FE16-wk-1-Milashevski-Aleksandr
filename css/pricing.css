@@ -4,12 +4,12 @@
 }
 
 /* firstBlock */
-.pricing__flexBox_item1 {
+.pricing__item1 {
   text-align: center;
   padding-bottom: 82px;
 }
 
-.pricing__flexBox_item1_title {
+.pricing__item1_title {
   line-height: 27px;
   padding-top: 15px;
   padding-bottom: 8px;
@@ -21,7 +21,7 @@
   color: white;
 }
 
-.pricing__flexBox_item1_price {
+.pricing__item1_price {
   line-height: 41px;
   padding-top: 26px;
   padding-bottom: 33px;
@@ -34,7 +34,7 @@
   margin: 2px 0 2px 0;
 }
 
-.pricing__flexBox_item1_offer {
+.pricing__item1_offer {
   line-height: 19px;
   padding-top: 17px;
   padding-bottom: 14px;
@@ -43,17 +43,17 @@
   transition: background-color 0.3s linear;
 }
 
-.pricing__flexBox_item1_offer:hover {
+.pricing__item1_offer:hover {
   background-color: #D98943;
 }
 
 /* secondBlock */
-.pricing__flexBox_item2 {
+.pricing__item2 {
   text-align: center;
   padding-bottom: 82px;
 }
 
-.pricing__flexBox_item2_title {
+.pricing__item2_title {
   line-height: 27px;
   padding-top: 15px;
   padding-bottom: 8px;
@@ -65,7 +65,7 @@
   color: white;
 }
 
-.pricing__flexBox_item2_price {
+.pricing__item2_price {
   line-height: 41px;
   padding-top: 26px;
   padding-bottom: 33px;
@@ -78,7 +78,7 @@
   background-color: #333333;
 }
 
-.pricing__flexBox_item2_offer {
+.pricing__item2_offer {
   line-height: 19px;
   padding-top: 17px;
   padding-bottom: 14px;
@@ -87,17 +87,17 @@
   transition: background-color 0.3s linear;
 }
 
-.pricing__flexBox_item2_offer:hover {
+.pricing__item2_offer:hover {
   background-color: #D98943;
 }
 
 /* thirdsBlock */
-.pricing__flexBox_item3 {
+.pricing__item3 {
   text-align: center;
   padding-bottom: 82px;
 }
 
-.pricing__flexBox_item3_title {
+.pricing__item3_title {
   line-height: 27px;
   padding-top: 15px;
   padding-bottom: 8px;
@@ -109,7 +109,7 @@
   color: white;
 }
 
-.pricing__flexBox_item3_price {
+.pricing__item3_price {
   line-height: 41px;
   padding-top: 26px;
   padding-bottom: 33px;
@@ -122,7 +122,7 @@
   margin: 2px 0 2px 0;
 }
 
-.pricing__flexBox_item3_offer {
+.pricing__item3_offer {
   line-height: 19px;
   padding-top: 17px;
   padding-bottom: 14px;
@@ -131,7 +131,7 @@
   transition: background-color 0.3s linear;
 }
 
-.pricing__flexBox_item3_offer:hover {
+.pricing__item3_offer:hover {
   background-color: #D98943;
 }
 

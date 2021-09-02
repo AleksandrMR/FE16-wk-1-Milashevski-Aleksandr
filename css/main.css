@@ -100,9 +100,7 @@ html {
 }
 
 /* FlexBox for Sections */
-.awesome__flexBox,
-.pricing__flexBox,
-.customers__flexBox {
+.flexBox {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

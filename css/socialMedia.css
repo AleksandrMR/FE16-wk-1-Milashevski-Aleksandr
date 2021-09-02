@@ -3,7 +3,7 @@
   background-color: rgba(248, 239, 239, 1);
 }
 
-.socialMedia__flexBox_item1 {
+.socialMedia__item1 {
   width: 365px;
 }
 
@@ -13,8 +13,6 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 27px;
-  display: flex;
-  align-items: center;
   color: #333333;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -26,13 +24,21 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
-  display: flex;
-  align-items: center;
   color: #86878B;
   padding-bottom: 17px;
 }
 
-.socialMedia__flexBox_item2 {
-
+.socialMedia__nav_social_item {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 39px;
+  padding: 25px;
 }
 
+.socialMedia__nav_link {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.socialMedia__nav_link:hover {
+  color: #D98943;
+}

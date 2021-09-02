@@ -4,13 +4,13 @@
 }
 
 /* firstBlock */
-.awesome__flexBox_item1 {
+.awesome__item1 {
   width: 350px;
   text-align: center;
   padding-bottom: 109px;
 }
 
-.awesome__flexBox_item1_image {
+.awesome__item1_image {
   width: 70px;
   height: 70px;
   border: 1px solid #D98943;
@@ -19,7 +19,7 @@
   margin: auto auto 30px;
 }
 
-.awesome__flexBox_item1_title {
+.awesome__item1_title {
   position: center;
   font-family: "OpenSans", sans-serif;
   font-style: normal;
@@ -28,7 +28,7 @@
   margin-bottom: 16px;
 }
 
-.awesome__flexBox_item1_subTitle {
+.awesome__item1_subTitle {
   position: center;
   font-family: "OpenSans", sans-serif;
   font-style: normal;
@@ -39,13 +39,13 @@
 }
 
 /* secondBlock */
-.awesome__flexBox_item2 {
+.awesome__item2 {
   width: 350px;
   text-align: center;
   padding-bottom: 109px;
 }
 
-.awesome__flexBox_item2_image {
+.awesome__item2_image {
   width: 70px;
   height: 70px;
   border: 1px solid #D98943;
@@ -54,7 +54,7 @@
   margin: auto auto 30px;
 }
 
-.awesome__flexBox_item2_title {
+.awesome__item2_title {
   position: center;
   font-family: "OpenSans", sans-serif;
   font-style: normal;
@@ -63,7 +63,7 @@
   margin-bottom: 16px;
 }
 
-.awesome__flexBox_item2_subTitle {
+.awesome__item2_subTitle {
   position: center;
   font-family: "OpenSans", sans-serif;
   font-style: normal;
@@ -74,13 +74,13 @@
 }
 
 /* thirdsBlock */
-.awesome__flexBox_item3 {
+.awesome__item3 {
   width: 350px;
   text-align: center;
   padding-bottom: 109px;
 }
 
-.awesome__flexBox_item3_image {
+.awesome__item3_image {
   width: 70px;
   height: 70px;
   border: 1px solid #D98943;
@@ -89,7 +89,7 @@
   margin: auto auto 30px;
 }
 
-.awesome__flexBox_item3_title {
+.awesome__item3_title {
   position: center;
   font-family: "OpenSans", sans-serif;
   font-style: normal;
@@ -98,7 +98,7 @@
   margin-bottom: 16px;
 }
 
-.awesome__flexBox_item3_subTitle {
+.awesome__item3_subTitle {
   position: center;
   font-family: "OpenSans", sans-serif;
   font-style: normal;
