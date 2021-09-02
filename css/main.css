@@ -12,10 +12,13 @@
    ========================================================================== */
 @import url(header.css);
 @import url(intro.css);
+@import url(socialMedia.css);
 @import url(awesome.css);
 @import url(pricing.css);
 @import url(customers.css);
 @import url(axure.css);
+@import url(contactUs.css);
+@import url(footer.css);
 
 /* Fonts */
 @font-face {
@@ -44,7 +47,7 @@ html {
   line-height: 1.4;
   font-family: "OpenSans", sans-serif;
   scroll-behavior: smooth;
-  background-color: #D98943;
+  background-color: black;
 }
 
 /* Container */

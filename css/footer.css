@@ -1,0 +1,40 @@
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  background-color: black;
+  height: 100px;
+}
+
+.footer__nav_social {
+  height: 23px;
+  margin-top: 30px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.footer__nav_social_item {
+  display: inline;
+  vertical-align: top;
+  font-size: 23px;
+  padding: 13px;
+}
+
+.footer__brand {
+  padding: 18px;
+}
+
+.footer__brand_text {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.nav_link {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.nav_link:hover {
+  color: white;
+}
