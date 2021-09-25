@@ -2,3 +2,63 @@
 .contactUs {
   background-color: white;
 }
+
+#inputName,
+#inputEmail,
+#inputPassword {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  outline: none;
+  color: #D98943;
+  border: 0;
+  border-bottom: 1px solid #BDBDBD;
+  padding: 32px 32px 32px 0px;
+  width: 100%;
+}
+
+.textAria {
+  outline: none;
+  border: 0;
+  width: 100%;
+}
+
+.contactUs__item1 {
+  padding-bottom: 68px;
+  width: 478px;
+}
+
+.contactUs__item2_placeholder {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #BDBDBD;
+}
+
+.contactUs__item2 {
+  border-bottom: 1px solid #BDBDBD;
+  width: 478px;
+}
+
+.contactUs__item3 {
+  padding-bottom: 44px;
+}
+
+.contactUs__button {
+  padding-bottom: 49px;
+  display: block;
+  text-align: center;
+}
+
+.contactUs__button > a {
+  color: white;
+  background: #EC7979;
+  padding: 11px 26px;
+  transition: background-color 0.3s linear;
+}
+
+.contactUs__button > a:hover {
+  background-color: red;
+}

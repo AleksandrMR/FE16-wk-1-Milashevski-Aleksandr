@@ -13,6 +13,7 @@
 @import url(header.css);
 @import url(intro.css);
 @import url(socialMedia.css);
+@import url(tabsTransition.css);
 @import url(awesome.css);
 @import url(pricing.css);
 @import url(customers.css);
@@ -22,15 +23,13 @@
 
 /* Fonts */
 @font-face {
-  font-family: "Raleway";
-  src: local("Raleway"),
-  url(/fonts/Raleway/Raleway.ttf);
+  font-family: Raleway;
+  src: url(/fonts/Raleway/Raleway.ttf);
 }
 
 @font-face {
-  font-family: "OpenSans";
-  src: local("OpenSans"),
-  url(/fonts/OpenSans/OpenSans.ttf);
+  font-family: OpenSans;
+  src: url(/fonts/OpenSans/OpenSans.ttf);
 }
 
 * {
@@ -102,11 +101,8 @@ html {
 /* FlexBox for Sections */
 .flexBox {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  vertical-align: middle;
+  justify-content: space-between;
+  align-content: space-between;
 }
 
 /*

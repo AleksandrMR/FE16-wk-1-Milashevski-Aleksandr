@@ -26,15 +26,16 @@
 .nav__item {
   font-size: 15px;
   color: rgba(255, 255, 255, 0.7);
-
   margin: 0 10px;
-  transition: color 0.3s linear;
+  transition: color, border-bottom-color 0.3s linear;
   display: inline-block;
   vertical-align: top;
+  padding-bottom: 8px;
+  border-bottom: 1px solid transparent;
 }
 
 .nav__item:hover {
   color: orange;
-  text-decoration: none;
+  border-bottom: 1px solid orange;
 }
 

@@ -1,4 +1,9 @@
 
+// function scrollTo(hash) {
+//   location.hash = "#" + hash;
+// }
+
+
 
 var linkNav = document.querySelectorAll('[href^="#"]'), //выбираем все ссылки к якорю на странице
   V = 1;  // скорость, может иметь дробное значение через точку (чем меньше значение - тем больше скорость)
