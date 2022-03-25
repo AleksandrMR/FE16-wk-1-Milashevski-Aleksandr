@@ -4,6 +4,7 @@
 }
 
 .socialMedia__item1 {
+  margin-right: auto;
   width: 365px;
 }
 
@@ -26,6 +27,10 @@
   line-height: 19px;
   color: #86878B;
   padding-bottom: 17px;
+}
+
+.socialMedia__item2 {
+  margin-right: auto;
 }
 
 .socialMedia__nav_social_item {
